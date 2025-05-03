@@ -1,0 +1,46 @@
+#despre {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+    #despre h2 {
+        color: #333;
+        text-align: center;
+    }
+
+    #despre h3 {
+        color: #444;
+        margin-top: 20px;
+    }
+
+    #despre ul {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+
+        #despre ul li {
+            margin-bottom: 10px;
+        }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+#imagine-azil {
+    width: 100%;
+    max-width: 624px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

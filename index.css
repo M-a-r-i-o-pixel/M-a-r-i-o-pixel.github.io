@@ -1,0 +1,35 @@
+#poza1 {
+width:96vw;
+display:block;
+margin:auto;
+margin-top:10px;
+}
+#poza1 {
+    width: 100vw;
+    display: block;
+    margin: auto;
+    
+}
+
+/* Larger screens (e.g., tablets/desktops) */
+@media (min-width: 600px) {
+    #poza1 {
+        margin-top: 20px;
+    }
+}
+#despre {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    background-color: #9bb0a3;
+}
+
+    #despre h2, #despre h3 {
+        color: #333;
+        text-align: center;
+    }

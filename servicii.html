@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicii – Azilul Grădinii Fericirii</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #servicii {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+            #servicii h2, #servicii h3 {
+                text-align: center;
+                color: #2c3e50;
+            }
+
+            #servicii p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                text-align: center;
+            }
+
+        .serviciu {
+            margin-top: 40px;
+        }
+
+            .serviciu img {
+                width: 100%;
+                max-width: 500px;
+                height: auto;
+                display: block;
+                margin: 15px auto;
+                border-radius: 8px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+        ul {
+            padding-left: 20px;
+        }
+
+            ul li {
+                margin-bottom: 10px;
+            }
+
+        @media (min-width: 768px) {
+            .serviciu {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                flex-wrap: wrap;
+            }
+
+                .serviciu:nth-child(even) {
+                    flex-direction: row-reverse;
+                }
+
+                .serviciu img {
+                    flex: 1 1 40%;
+                }
+
+                .serviciu div {
+                    flex: 1 1 55%;
+                }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="servicii.html">Servicii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicii">
+            <h2>Serviciile Noastre</h2>
+            <p>Oferim servicii complete pentru confortul, sănătatea și bunăstarea seniorilor noștri.</p>
+
+            <div class="serviciu">
+                <img src="imagini/ingrijireBatrani.jpg" alt="Îngrijire permanentă">
+                <div>
+                    <h3>Îngrijire permanentă (24/7)</h3>
+                    <ul>
+                        <li>Asistență medicală constantă</li>
+                        <li>Administrarea tratamentelor</li>
+                        <li>Evaluări regulate ale stării de sănătate</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="serviciu">
+                <img src="imagini/poza2.jpg" alt="Ajutor în activitățile zilnice">
+                <div>
+                    <h3>Ajutor în activitățile zilnice</h3>
+                    <ul>
+                        <li>Igienă personală, mobilitate și îmbrăcare</li>
+                        <li>Toaletare, frizerie și îngrijire personală</li>
+                        <li>Servicii personalizate pentru fiecare rezident</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="serviciu">
+                <img src="imagini/poza3.jpg" alt="Activități recreative și sociale">
+                <div>
+                    <h3>Activități recreative și sociale</h3>
+                    <ul>
+                        <li>Jocuri, muzică, terapie ocupațională</li>
+                        <li>Ateliere creative, petreceri tematice</li>
+                        <li>Plimbări și activități în aer liber</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align:center; padding:20px; background:#333; color:white;">&copy; 2025 Azilul Grădinii Fericirii</p>
+    </footer>
+
+</body>
+</html>

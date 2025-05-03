@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Azilul Grădinii Fericirii</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        #contact {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+            #contact h2 {
+                text-align: center;
+                color: #2c3e50;
+            }
+
+        .contact-info, form {
+            margin-top: 30px;
+        }
+
+            .contact-info p {
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+            }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #575757;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre</a></li>
+                <li><a href="servicii.html">Servicii</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contactează-ne</h2>
+            <p style="text-align:center;">Suntem bucuroși să vă răspundem la întrebări și să vă oferim toate detaliile necesare.</p>
+
+            <div class="contact-info">
+                <p><strong>📍 Adresă:</strong> Strada Oneștilor, Oradea, județul Bihor</p>
+                <p><strong>📞 Telefon:</strong> <a href="tel:0752321580">0752 321 580</a></p>
+                <p><strong>📧 Email:</strong> <a href="mailto:lpopescu@uoradea.ro">liviu.popescu@didactic.uoradea.ro</a></p>
+            </div>
+
+            <form action="#" method="post">
+                <input type="text" name="nume" placeholder="Numele dumneavoastră" required />
+                <input type="email" name="email" placeholder="Adresa de email" required />
+                <input type="tel" name="telefon" placeholder="Număr de telefon (opțional)" />
+                <textarea name="mesaj" placeholder="Scrieți mesajul aici..." required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align:center; padding:20px; background:#333; color:white;">&copy; 2025 Azilul Grădinii Fericirii</p>
+    </footer>
+
+</body>
+</html>
